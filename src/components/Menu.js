@@ -8,7 +8,7 @@ export default class Menu extends React.Component {
     };
 
     componentDidMount() {
-        axios.get("https://shielded-mesa-36213.herokuapp.com/api/restaurants/1/menu_items").then(res => {
+        axios.get(`https://shielded-mesa-36213.herokuapp.com/api/restaurants/${this.props.restaurant_id}/menu_items`).then(res => {
             console.log(res.data.menu_items);
             this.setState({ menu: res.data.menu_items });
         });
@@ -17,8 +17,8 @@ export default class Menu extends React.Component {
 
 
     render() {
-        const menu_items = this.state.menu.map(e =>(
-            <MenuItem item={e} />
+        const menu_items = this.state.menu.map((e,i) =>(
+            <MenuItem key={i} item={e} />
         ))
         return (
             
