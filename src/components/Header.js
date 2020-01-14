@@ -12,6 +12,7 @@ import {
     Route,
     Link
   } from 'react-router-dom';
+import LandingPage from './LandingPage';
 
 class Header extends Component {
 
@@ -29,7 +30,7 @@ class Header extends Component {
       constructor(props){
         super(props)
         this.state={
-          isLoggedIn: true
+          isLoggedIn: false
         }
         this.handleLoggedInStatus = this.handleLoggedInStatus.bind(this);
       }
@@ -68,7 +69,7 @@ class Header extends Component {
                 <Router>    
                 <div>
                     <nav>
-                        {/* <link to="/">Home</link>{" "} */}
+                        <Link to="/">Home</Link>{" "}
                         <Link to="/restaurants">Restaurants</Link>{" "}
                         <Link to="/contactus">ContactUs</Link>{" "}
                         <Link to="/aboutus">AboutUs</Link>{" "}
@@ -78,7 +79,7 @@ class Header extends Component {
                     </nav>
                 </div>
                 
-                {/* <Route exact path="/"  */}
+                <Route exact path="/" component={LandingPage} />
                  <Route path="/restaurants" component={Restaurants} /> 
                  <Route path="/ContactUs" component={ContactUs} /> 
                  <Route path="/aboutus" component={AboutUs} />
