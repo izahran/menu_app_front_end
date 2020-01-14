@@ -20,8 +20,7 @@ export default class Menu extends React.Component {
         const menu_items = this.state.menu.map((e,i) =>(
             <MenuItem key={i} item={e} />
         ))
-        return (
-            
+        return (           
             <div className="item container-m">
                 {menu_items}
             </div>

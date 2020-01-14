@@ -20,21 +20,21 @@ export default class LandingPageCourser extends React.Component {
             showArrows={false} infiniteLoop={true}
             autoPlay={true} transitionTime={1000}
             dynamicHeight={false} emulateTouch={true}>
-            <div>
-                <img src={image2} />
-                <h1>Great Offers</h1>
-                <button onClick={(e) => this.btnClick(e)}>Learn more </button>
-            </div>
-            <div>
-                <img src={image3} />
-                <h1>Get Free Dessert</h1>
-                <button onClick={(e) => this.btnClick(e)}>Learn more </button>
-            </div>
-            <div>
-                <img src={image4} />
-                <h1>Delicious Food Every Day</h1>
-                <button onClick={(e) => this.btnClick(e)}>Learn more </button>
-            </div>
+                <div>
+                    <img src={image2} />
+                    <h1>Great Offers</h1>
+                    <button onClick={(e) => this.btnClick(e)}>Learn more </button>
+                </div>
+                <div>
+                    <img src={image3} />
+                    <h1>Get Free Dessert</h1>
+                    <button onClick={(e) => this.btnClick(e)}>Learn more </button>
+                </div>
+                <div>
+                    <img src={image4} />
+                    <h1>Delicious Food Every Day</h1>
+                    <button onClick={(e) => this.btnClick(e)}>Learn more </button>
+                </div>
             
             </Carousel>
         );
