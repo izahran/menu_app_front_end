@@ -1,14 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import ContactUs from './components/ContactUs';
-import Header from './components/Header';
-
+import Restaurants from './components/Restaurants'
 
 function App() {
   return (
     <div className="App">
-      <Header>  </Header>
+      <Restaurants />
     </div>
   );
 }
