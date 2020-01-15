@@ -2,9 +2,9 @@ import React from 'react';
 
 function Footer(props) {
     return (
-        <div>
-            <p>Copy Right 2020</p>
-        </div>
+        <footer>
+            <p>&copy; 2020 JS Ninjas. All rights reserved.</p>
+        </footer>
     );
 }
 
