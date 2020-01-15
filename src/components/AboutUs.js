@@ -13,28 +13,28 @@ class AboutUs extends Component {
                 <div className="card">
                     <h2>Mohammed</h2>
                     <h4>Team Leader</h4>
-                    <a href= 'https://github.com/Moohy?tab=repositories' target='_blank'>Repositories</a>
+                    <a href= 'https://github.com/Moohy?tab=repositories' target='_blank'>Profile</a>
 
                 </div>
                 <div className="card">
                     <h2>Amal</h2>
                     <h4>Team Member</h4>
-                    <a href= 'https://github.com/Amal337?tab=repositories' target='_blank'>Repositories</a>
+                    <a href= 'https://github.com/Amal337?tab=repositories' target='_blank'>Profile</a>
                 </div>
                 <div className="card">
                     <h2>Hatim</h2>
                     <h4>Team Member</h4>
-                    <a href= 'https://github.com/hatimalattas?tab=repositories' target='_blank'>Repositories</a>
+                    <a href= 'https://github.com/hatimalattas?tab=repositories' target='_blank'>Profile</a>
                 </div>
                 <div className="card">
                     <h2>Dalia</h2>
                     <h4>Team Member</h4>
-                    <a href= 'https://github.com/dhdammas?tab=repositories' target='_blank'>Repositories</a>
+                    <a href= 'https://github.com/dhdammas?tab=repositories' target='_blank'>Profile</a>
                 </div>
                 <div className="card">
                     <h2>Ibrahim</h2>
                     <h4>Team Member</h4>
-                    <a href= 'https://github.com/izahran?tab=repositories' target='_blank'>Repositories</a>
+                    <a href= 'https://github.com/izahran?tab=repositories' target='_blank'>Profile</a>
                 </div>
             </div>
             
